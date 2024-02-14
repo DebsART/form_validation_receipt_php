@@ -1,0 +1,50 @@
+/******w************
+    
+    Assignment 2 Stylesheet
+    Name: Deborah Ekpeneidua
+    Date: February 7, 2024
+    Description: Styles for Assignment 2
+
+*******************/
+
+body{
+    width: 90%;
+    border: black 2px solid;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border: black 2px double;
+    border-width: 7px;
+    border-radius: 10px;
+}
+
+caption{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+td{
+    border: 1px black solid;
+
+}
+
+#tableOne td:nth-child(odd){
+    text-align: right;
+}
+
+ #tableTwo tr:last-child td:nth-child(1) {
+    text-align: right;
+}
+
+h2, h3{
+    padding-left: 7px;
+}
